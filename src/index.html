@@ -1,73 +1,39 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Blog</title>
     <link
       href="https://fonts.googleapis.com/css?family=Muli:300,400,700&display=swap"
       rel="stylesheet"
     />
+    <script
+      src="https://kit.fontawesome.com/97bb762bba.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Blog</title>
   </head>
   <body>
     <div class="container">
       <header>
         <a class="header-brand" href="./index.html">Blog</a>
-        <ul>
-          <li>
-            <a href="./index.html" class="header-nav active">Accueil</a>
-          </li>
-          <li>
-            <a href="./form.html" class="header-nav"
-              >Créer un article</a
-            >
-          </li>
-        </ul>
-      </header>
-      <div class="content">
-        <div class="articles-container">
-          <div class="article">
-            <img
-              src="https://randomuser.me/api/portraits/men/73.jpg"
-              alt="profile"
-            />
-            <h2>Titre de l'article</h2>
-            <p class="article-author">Auteur de l'article</p>
-            <p class="article-content">
-              Napoléon Ier, né le 15 août 1769 à Ajaccio et mort le 5 mai 1821
-              sur l'île Sainte-Hélène, est le premier empereur des Français, du
-              18 mai 1804 au 6 avril 1814 et du 20 mars 1815 au 22 juin 1815.
-              Second enfant de Charles Bonaparte et Letizia Ramolino, Napoléon
-              Bonaparte est un militaire, général dans les armées de la Première
-              République française, née de la Révolution, commandant en chef de
-              l'armée d'Italie puis de l'armée d'Orient. Arrivé au pouvoir en
-              1799 par le coup d'État du 18 Brumaire, il est Premier consul
-              jusqu'au 2 août 1802, puis consul à vie jusqu'au 18 mai 1804, date
-              à laquelle il est proclamé empereur des Français par un
-              sénatus-consulte suivi d'un plébiscite. Il est sacré empereur, en
-              la cathédrale Notre-Dame de Paris, le 2 décembre 1804, par le pape
-              Pie VII. Son épouse, l'impératrice Joséphine de Beauharnais, est
-              également sacrée. En tant que général en chef et chef d'État,
-              Napoléon tente de briser les coalitions montées et financées par
-              le royaume de Grande-Bretagne et qui rassemblent, à partir de
-              1792, les monarchies européennes contre la France et son régime né
-              de la Révolution. Il conduit les armées françaises d'Italie au Nil
-              et d'Autriche à la Prusse et à la Pologne : les nombreuses et
-              brillantes victoires de Bonaparte (Arcole, Rivoli, Pyramides,
-              Marengo, Austerlitz, Iéna, Friedland), dans des campagnes
-              militaires rapides, disloquent les quatre premières coalitions.
-              Les paix successives, qui mettent un terme à chacune de ces
-              coalitions, renforcent la France et donnent à Napoléon un degré de
-              puissance jusqu'alors rarement égalé en Europe, lors de la paix de
-              Tilsit (1807).
-            </p>
-            <div class="article-actions">
-              <button class="btn btn-danger">Supprimer</button>
-              <button class="btn btn-primary">Modifier</button>
-            </div>
+        <div class="header-menu">
+          <ul>
+            <li>
+              <a href="./index.html" class="header-nav active">Accueil</a>
+            </li>
+            <li>
+              <a href="./form.html" class="header-nav">Créer un article</a>
+            </li>
+          </ul>
+          <div class="header-menu-icon">
+            <i class="fa-solid fa-bars"></i>
           </div>
         </div>
+      </header>
+      <div class="content">
+        <div class="articles-container"></div>
       </div>
       <footer>© blog</footer>
     </div>
